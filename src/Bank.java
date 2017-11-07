@@ -1,11 +1,9 @@
-import java.util.HashMap;
 import java.util.Hashtable;
 
 class Bank {
 
     private Hashtable rates = new Hashtable();
     Money reduce(Expression source, String to){
-
         return  source.reduce(this, to);
     }
 
