@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+interface Expression {
 
-public interface Expression {
+    Money reduce(Bank bank, String to);
 }
